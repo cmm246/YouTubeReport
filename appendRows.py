@@ -185,7 +185,7 @@ def youtube_search(video_ids):
 
 if __name__ == '__main__':
     try:
-        f = open(os.getcwd()+'/youtubeIds.txt', 'r')
+        f = open(SCRIPT_PATH, 'r')
         videoIds = f.read()
         f.close()
         videoIds = videoIds.replace('\n', ',').strip()
