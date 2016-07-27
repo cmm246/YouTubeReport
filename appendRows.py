@@ -171,7 +171,7 @@ def youtube_search(video_ids):
                 video_result['statistics']['favoriteCount'],
                 video_result['statistics']['commentCount'],
                 'https://www.youtube.com/watch?v=' + video_result['id'],
-                video_result['snippet']['channelId'],
+                video_result['snippet']['channelTitle'],
             ]
 
 
